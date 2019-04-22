@@ -1,0 +1,13 @@
+import re
+import string
+sent_str = ""
+with open(file='program.txt', mode = 'r', encoding = 'UTF-8' ) as read:
+    for line in read:
+        for word in line.split():
+            px = re.sub('['+string.punctuation+']', '', word).split()
+            for i in px:
+                sent_str += str(i)
+            sent_str = sent_str[:-1]
+            print(sent_str)
+
+
