@@ -1,0 +1,9 @@
+Matching item,Frequency of matching items,Split items
+LoremIpsum,9,"['Lorem', 'Ipsum']"
+ofthe,1,"['of', 'the']"
+sincethe,1,"['since', 'the']"
+ofLorem,3,"['of', 'Lorem']"
+45BC,1,"['45', 'BC']"
+makingit,1,"['making', 'it']"
+comesfrom,1,"['comes', 'from']"
+onthe,1,"['on', 'the']"
